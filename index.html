@@ -1,0 +1,36 @@
+<!DOCTYPE html><html lang="en"><head>
+  <script src="libraries/p5.js"></script>
+  <script src="libraries/p5.dom.min.js"></script>
+  <script src="libraries/p5.play.js"></script>
+
+  <script src="js/form.js"></script>
+<!--Link game.js and player.js-->
+<script src="js/game.js"></script>
+<script src="js/player.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-app.js"></script>
+
+<script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-database.js"></script>
+<script>
+const firebaseConfig = {
+  apiKey: "AIzaSyBZi9lF3B88s2fwNpuoOnO_LA8JmaauF_o", 
+  authDomain: "newdatacar.firebaseapp.com", 
+  databaseURL: "https://newdatacar-default-rtdb.firebaseio.com", 
+  projectId: "newdatacar", 
+  storageBucket: "newdatacar.appspot.com", 
+  messagingSenderId: "697542706140", 
+  appId: "1:697542706140:web:3f18c99cdb02ca9ceb4519"
+}
+firebase.initializeApp(firebaseConfig);
+</script>
+<!--Add database config here below-->
+  
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <meta charset="utf-8">
+
+</head>
+<body>
+  <script src="sketch.js"></script>
+
+
+
+</body></html>
